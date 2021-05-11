@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    background-image: url("https://cdn.wallpapersafari.com/38/21/lm9eqV.jpg");
+
+
+}
+
+#app-container{
+    background: rgba(14, 13, 13, 0.705);
+    padding: 0;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1cm;
+    color: white;
+}
+
+#temp{
+    text-align: center;
+    padding: 0;
+}
+#temp #temp-value{
+    color: #fff;
+    font-size: 70px;
+}
+
+#temp #temp-unit{
+    color: #fff;
+    font-size: 3rem;
+}
+
+#temp-icon{
+        margin: 0;
+        width: 20%;
+    }
+
+#location {
+            padding: 0;
+            font-size: 50px;
+            text-align: center;
+        }
+#climate{
+            color: #e0e0e0;
+            font-size: 20px;
+            text-align: center;
+            padding: 0;
+}
